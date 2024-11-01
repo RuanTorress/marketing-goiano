@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+header{
+
+    background-image: url(../image/banner-topo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+    
+}
+
+header h1 {
+
+    display: inline;
+    color: #3C184E;
+}
+
+header p {
+    padding-left: 3px;
+    color: #3C184E;
+}
+
+.nome-empresa{
+
+   padding: 50px;
+    
+}
+
+#pata{
+
+    width: 52px;
+}
+
+.bloco-topo{
+
+    max-width: 700px;
+    margin: 0px auto;
+    background-color: rgba(241, 224, 224, 0.555);
+    text-align: center;
+    box-shadow: 4px -5px  4px rgba(0, 0, 0, 0.096);
+    border-radius: 5px;
+    
+    
+    
+    
+}
+
+#ajuste-borda{
+  
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    
+}
+
+.bloco-topo h2{
+
+    font-size: 39px;
+    padding:30px;
+    color: #3C184E;
+}
+
+.bloco-topo span {
+
+    display: inline-block;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: lighter;
+    padding: 2px 30px 6px 30px;
+    border-radius: 6px;
+    background-color: #3C184E;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    
+
+
+}
+
+#whats-pequena{
+
+    width: 18px;
+    padding-left: 3px;
+    padding-top: 3px;
+  
+}
+
+
+.servicos,.marcas,.mapa {
+
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.servicos{
+
+    
+    padding: 80px 10px 10px 10px;
+
+}
+
+.servicos h1 {
+
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3C184E;
+}
+
+.servicos ul{
+
+    padding: 0px 10px;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+li{
+    list-style: inside square;
+    padding-bottom: 30px;
+    color: #3C184E;
+    font-weight: 500;
+    text-align: justify;
+    line-height:25px;
+   
+    
+
+}
+
+.lista-servico{
+
+    font-weight: bolder;
+}
+
+
+
+.container-servicos{
+    max-width: calc(100% - 20px);
+    padding: 0px 10px;
+    padding-bottom: 70px;
+    padding-top: 20x;
+    
+   
+   
+}
+
+.ft-servicos{
+
+    width: calc((93% / 5));
+    box-sizing: border-box;
+    box-shadow:  6px 6px 6px 0px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    
+   
+    
+}
+
+.roxo1 , .roxo2{
+
+    background-color:#3C184E;
+    color: white;
+    text-align: center;
+}
+
+.roxo1 h1 , .roxo2 h1 {
+
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: lighter;
+    max-width: 600px;
+    margin: auto;
+
+
+}
+
+.bold{
+
+    font-weight: bold;
+    
+}
+
+.redes{
+
+    width: 40px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+}
+
+
+
+.marcas h1{
+
+    color: #3C184E;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.bloco-fotos{
+
+    width:100%;
+    margin-bottom: 12px;
+    text-align: center;
+    
+}
+
+.parceiras{
+
+    
+    padding-right: 20px;
+    
+}
+
+.mapa{
+
+    position: relative;
+}
+
+.mapa h1{
+
+    text-align: center;
+    color: #3C184E;
+    padding-top: 70px;
+    font-weight: bold;
+   
+}
+
+.mapa p {
+
+    
+    padding: 30px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #3C184E;
+}
+
+.father{
+
+    position: relative;
+    width: 100%;
+    height: 580px;
+    
+   
+}
+
+iframe{
+
+    width: 90%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+  
+
+}
+
+footer{
+
+    background-color: #3C184E;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+
+#git{
+
+    width: 80px;
+    position: fixed;
+    bottom: 70px;
+    right: 25px;
+
+   
+
+    
+}
+
+#ramon{
+    /* display: inline-block; */
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
